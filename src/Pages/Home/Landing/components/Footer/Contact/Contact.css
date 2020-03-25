@@ -1,0 +1,21 @@
+
+.home--landing--contactForm--container {
+	/* height: 400px; */
+	width: 400px;
+	/* background: red; */
+}
+
+.contact--contactForm--form--field {
+	resize: none;
+	height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.home--landing--contactForm--container {
+		width: 340px;
+		margin-left: -20px;
+		text-align: left;
+	}
+
+}

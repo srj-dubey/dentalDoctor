@@ -1,0 +1,42 @@
+
+.main--header--mobile--wrap {
+	width: 100vw;
+	position: relative;
+	z-index: 1000;
+}
+
+.main--header--mobile {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main--header--mobile--logo {
+	color: var( --indigo);
+	font-size: 12px;
+}
+
+.main--header--mobile--menu--wrap {
+	position: absolute;
+	top: 30px;
+	right: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.home--landing--dentist--box--content p {
+	line-height: 1.7;
+}
+
+.home--landing--dentist--box--content ul {
+	padding-left: 17px;
+}
+
+.home--landing--dentist--box--content li {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	list-style: outside;
+	font-size: 16px;
+}

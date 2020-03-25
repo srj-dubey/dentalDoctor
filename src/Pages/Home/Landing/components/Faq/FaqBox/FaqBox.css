@@ -1,0 +1,39 @@
+
+.about--faq--faqBox--container {
+	width: 100%;
+	padding: 10px ;
+	margin: 20px;
+	width: 500px;
+}
+
+.about--faq--faqBox--head {
+	background: var( --indigo);
+	color: #fafafa;
+	padding: 10px 25px;
+}
+
+.about--faq--faqBox--head h3 {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.about--faq--faqBox--content {
+	padding: 10px 0px;
+}
+
+.about--faq--faqBox--content p {
+	font-weight: 400;
+	color: var( --dark);
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;	
+}
+
+@media only screen and (max-width: 600px) {
+
+	.about--faq--faqBox--container {
+		padding: 10px 0;
+		margin: 20px 0;
+	}
+
+}

@@ -1,0 +1,43 @@
+
+.contact--contactForm {
+	padding: 20px 30px;
+	background: #ffffff;
+	box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+}
+
+.contact--contactForm--form--button--container button {
+	width: 100%;
+	padding: 12px 0;
+	background: var( --indigo);
+}
+
+.contact--contactForm--form--inputBox--select--conatiner {
+	padding: 15px 0 0 0;
+}
+
+.contact--contactForm--form--inputBox--select--conatiner select {
+	padding: 10px 10px;
+	margin-top: 10px;
+	border: var( --dark) 2px solid;
+	border-radius: 5px;
+	width: calc(100% - 0px);
+}
+
+.contact--contactForm--form--inputBox--select--conatiner option {
+	padding: 10px;
+	margin: 10px;
+}
+
+.contact--contactForm--form--inputBox--select--label {
+	margin: 10px;
+	color: var( --dark);
+	font-size: 13px;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+
+	
+
+}

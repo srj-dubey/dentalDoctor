@@ -1,0 +1,110 @@
+
+.home--landing--treatment--container {
+	padding: 80px 10%;
+	width: calc(100vw - 20%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home--landing--treatment--heading {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.home--landing--treatment--heading h1 {
+	font-weight: 500;
+	font-size: 32px;
+	color: var( --dark);
+	letter-spacing: 1px;
+}
+
+.home--landing--treatment {
+	width: 100%;
+	background: #fafafa;
+}
+
+.home--landing--treatment--slider {
+	height: 680px;
+	background: #fafafa !important;
+}
+
+.home--landing--treatment--slider--container {
+	width: 100%;
+	height: 680px;
+}
+
+.home--landing--treatment--treatmentBox {
+	width: clac(100% - 60px);
+	padding: 20px 30px;
+	margin: 20px 10px;
+	text-align: center;
+	/* box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.05); */
+	border-radius: 8px;
+	position: relative;
+}
+
+.home--landing--treatment--treatmentBox--image--container {
+	width: 100%;
+	height: 500px;
+}
+
+.home--landing--treatment--treatmentBox--image--container img {
+	height: 500px;
+	width: 100%;
+}
+
+.home--landing--treatment--treatmentBox--content--container {
+	width: 100%;
+	position: absolute;
+}
+
+.home--landing--treatment--treatmentBox--content--container h6 {
+	font-weight: 500;
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: var( --dark);
+	padding: 20px 0;
+	text-transform: capitalize;
+}
+
+.awssld__content {
+	background: #fafafa !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.home--landing--treatment--container {
+		padding: 80px 10%;
+	}
+
+	.home--landing--treatment--slider {
+		height: 450px;
+	}
+
+	.home--landing--treatment--slider--container {
+		height: 450px;
+	}
+
+	.home--landing--treatment--container {
+		padding: 40px 0%;
+		width: 100%;
+	}
+
+	.home--landing--treatment--treatmentBox {
+		width: calc(100% - 80px);
+	}
+
+	.home--landing--treatment--treatmentBox--image--container {
+		height: 250px;
+	}	
+
+	.home--landing--treatment--treatmentBox--image--container img {
+		height: 250px;
+	}
+
+	.home--landing--treatment--treatmentBox--content--container {
+		width: calc(100% - 80px);
+	}
+
+}

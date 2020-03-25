@@ -1,0 +1,67 @@
+
+.home--landing--how--howTimelineDesk--container {
+	width: 100%;
+	padding-bottom: 250px;
+}
+
+.how--howTimelineDesk--bar--container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.how--howTimelineDesk--bar {
+	height: 5px;
+	width: 100%;
+	background: var( --indigo);
+}
+
+.how--howTimelineDesk--bar--row {
+	width: 100%;
+	position: relative;
+}
+
+.how--howTimelineDesk--bar--data {
+	position: absolute;
+	/* top: 50px; */
+	/* left: 100px;s */
+}
+
+.how--howTimelineDesk--bar--location {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: var( --primary);
+	position: absolute;
+	top: -63px;
+	z-index: 10;
+}
+
+.how--howTimelineDesk--bar--location--string {
+	width: 3px;
+	height: 50px;
+	background: grey;
+	position: absolute;
+	top: -50px;
+	left: 8px;
+	z-index: 1;
+}
+
+.how--howTimelineDesk--bar--content {
+	padding: 10px 0;
+}
+
+.how--howTimelineDesk--bar--content h6 {
+	color: var( --indigo);
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.how--howTimelineDesk--bar--content p {
+	color: var( --dark);
+	padding: 5px 0;
+	font-size: 16px;
+	line-height: 1.4;
+	max-width: 200px;
+}

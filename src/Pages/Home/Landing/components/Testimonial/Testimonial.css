@@ -1,0 +1,23 @@
+
+.home--landing--testimonial--slider {
+	height: 200px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.home--landing--testimonial--slider--container {
+	height: 200px;
+}
+
+.home--landing--testimonial--container {
+	padding-top: 40px;
+	padding-bottom: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.home--landing--testimonial--container {
+		padding-bottom: 130px;
+	}
+
+}
