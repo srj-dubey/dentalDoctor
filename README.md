@@ -18,7 +18,7 @@
 </ul>
 
 <h6>Note:</h6>
-<p>The web-site is available for preview at: <a href="http://www.casadent.org/">casadent.com</a></p>
+<p>The web-site is available for preview at: <a href="http://www.casadent.org/">casadent.org</a></p>
 <br/>
 <p>Please ask, before any use.</p>  
 <h5>Srj. D.</h5>
